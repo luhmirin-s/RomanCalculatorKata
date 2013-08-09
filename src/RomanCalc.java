@@ -85,11 +85,7 @@ public class RomanCalc {
                 }
             }
         }
-        String result = "";
-        for (char c: data){
-            result += c;
-        }
-        return result;
+        return String.copyValueOf(data);
     }
 
    private static String expand(String number) {
